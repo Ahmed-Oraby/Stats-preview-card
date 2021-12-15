@@ -60,11 +60,12 @@ body {
 
 .card__title {
     font-size: 3rem;
+    line-height: 1.25;
 }
 
 .card__text {
     color: var(--color-main-p);
-    padding: 1rem 1rem 4rem;
+    padding: 1rem 1rem 2rem;
 }
 
 .card__stats {
@@ -74,6 +75,20 @@ body {
 
 .highlight {
     color: var(--color-accent);
+}
+
+/* Stats styles */
+.stats {
+    margin: 1.5rem 0;
+}
+
+.stats__number {
+    font-size: 2.4rem;
+}
+
+.stats__title {
+    text-transform: uppercase;
+    color: var(--color-stats-h);
 }
 
 /* attribution styles */
