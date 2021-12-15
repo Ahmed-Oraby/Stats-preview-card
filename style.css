@@ -26,7 +26,54 @@ body {
     font-family: "Inter", sans-serif;
     font-size: 1.5rem;
     line-height: 1.5;
+}
+
+.container {
+    background-color: var(--color-main-bg);
+    margin: 0 auto;
+    padding: 6rem 2rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+}
+
+/* Card styles */
+.card {
+    max-width: 375px;
+    background-color: var(--color-card-bg);
     color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card__image {
+    width: 100%;
+}
+
+.card__body {
+    padding: 3rem;
+}
+
+.card__title {
+    font-size: 3rem;
+}
+
+.card__text {
+    color: var(--color-main-p);
+    padding: 1rem 1rem 4rem;
+}
+
+.card__stats {
+    display: flex;
+    flex-direction: column;
+}
+
+.highlight {
+    color: var(--color-accent);
 }
 
 /* attribution styles */
