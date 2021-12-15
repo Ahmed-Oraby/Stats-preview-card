@@ -1,0 +1,42 @@
+/* set box-sizing to border-box */
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* set default colors variables */
+:root {
+    --color-main-bg: hsl(233, 47%, 7%);
+    --color-card-bg: hsl(244, 38%, 16%);
+    --color-accent: hsl(277, 64%, 61%);
+    --color-main-p: hsla(0, 0%, 100%, 0.75);
+    --color-stats-h: hsla(0, 0%, 100%, 0.6);
+}
+
+/* set root font to be 62.5% => 1rem = 10px */
+html {
+    font-size: 62.5%;
+}
+
+/* set font family and size */
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: #fff;
+}
+
+/* attribution styles */
+footer {
+    padding: 2rem;
+}
+
+.attribution {
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
