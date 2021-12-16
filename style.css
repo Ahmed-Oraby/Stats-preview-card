@@ -31,7 +31,7 @@ body {
 .container {
     background-color: var(--color-main-bg);
     margin: 0 auto;
-    padding: 6rem 2rem;
+    padding: 15rem 2rem;
 }
 
 .grid {
@@ -62,7 +62,7 @@ body {
 }
 
 .card__title {
-    font-size: 2.8rem;
+    font-size: 2.5rem;
     line-height: 1.25;
     font-weight: 700;
     margin: 1rem 0;
@@ -70,7 +70,7 @@ body {
 
 .card__text {
     color: var(--color-main-p);
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 
 .card__stats {
@@ -90,6 +90,7 @@ body {
 
 .stats__number {
     font-size: 2rem;
+    font-weight: 700;
 }
 
 .stats__title {
@@ -125,20 +126,28 @@ footer {
         text-align: left;
     }
 
+    .card__title {
+        font-size: 3rem;
+    }
+
     .card__image {
         order: 1;
     }
 
     .card__body {
-        margin-right: 6rem;
-        padding: 6rem 4rem 0 6rem;
+        margin-right: 2rem;
+        padding: 6rem 7rem 0;
+    }
+
+    .card__text {
+        padding-right: 3rem;
     }
 
     .card__stats {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        padding-right: 3rem;
+        padding-right: 5rem;
         margin-top: 5rem;
     }
 }
